@@ -1,0 +1,11 @@
+[package]
+name = "discord-slack-loader"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = { version = "0.4.35", features = ["serde"] }
+serde = { version = "1.0.197", features = ["derive"] }
+serde_json = "1.0.114"
+serenity = "0.12.1"
+tokio = { version = "1.36.0", features = ["full"] }
